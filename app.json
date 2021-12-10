@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "cpuSchedulingApp",
+    "slug": "CPU-Scheduling-App-Operating-System",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/favicon_main.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#50c0d8"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "*/"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vivek.cpuschedulingapp",
+      "buildNumber": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "React Native Application to visualize the CPU Scheduling with different Processes and Animations.",
+    "android": {
+      "package": "com.vivek.cpuschedulingapp",
+      "versionCode": 1
+    }
+  }
+}
